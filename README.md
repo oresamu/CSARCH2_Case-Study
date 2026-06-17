@@ -14,23 +14,25 @@ Chosen Topic: “Women who built computing – the hidden pioneers“
 ## Core Discussion: 
 This virtual exhibit looks at the building blocks of how computers actually work, specifically by studying how some of the earliest women in computing helped create the very first ways machines could store and run instructions. Rather than just listing names and dates, we wanted to dig deeper and explore how storage technology physically changed over time, from mechanical systems to electromagnetic ones.
 
-We take a closer look at women in history who changed the world, and at today's technology. First, Ada Lovelace (1840s), who figured out how to translate mathematical ideas into a format that a machine could follow, using punch cards as a kind of physical instruction manual for the Analytical Engine.
+We take a closer look at women in history who changed the world, and at today's technology. 
 
-Katherine Johnson (1950s - 1960s), was the reference architecture for early computers and NASA. She is known for calculating orbital mechanics and flight trajectories. Since in this era, people don't trust computers yet that ran on vacuum tubes and magnetic core memory. Katherine was tasked to write complex geometry equations to calculate trajectory tables. When NASA programmed the IBM computer, they used Katherine's hand-calculated tables to verify the computer's memory and processor logic were correct.
+First, **Ada Lovelace (1840s)**, who figured out how to translate mathematical ideas into a format that a machine could follow, using punch cards as a kind of physical instruction manual for the Analytical Engine.
 
-Grace Hopper (1950s), realized that people shouldn't have to write code in binary. So she invented the first computer compiler, which allowed human-readable commands turn to binary, and she's also the creator of COBOL.
+**Katherine Johnson (1950s - 1960s)**, was the reference architecture for early computers and NASA. She is known for calculating orbital mechanics and flight trajectories. Since in this era, people don't trust computers yet that ran on vacuum tubes and magnetic core memory. Katherine was tasked to write complex geometry equations to calculate trajectory tables. When NASA programmed the IBM computer, they used Katherine's hand-calculated tables to verify the computer's memory and processor logic were correct.
 
-Then there's Margaret Hamilton (Late 1960s), who helped design something called Core Rope Memory for the Apollo Guidance Computer, where actual copper wire was threaded through tiny magnetic rings to store binary code. Her architecture saved the Apollo 11 mission from an emergency system overload during landing. It sounds almost unbelievable, but that's literally how it worked.
+**Grace Hopper (1950s)**, realized that people shouldn't have to write code in binary. So she invented the first computer compiler, which allowed human-readable commands turn to binary, and she's also the creator of COBOL.
+
+Then there's **Margaret Hamilton (Late 1960s)**, who helped design something called Core Rope Memory for the Apollo Guidance Computer, where actual copper wire was threaded through tiny magnetic rings to store binary code. Her architecture saved the Apollo 11 mission from an emergency system overload during landing. It sounds almost unbelievable, but that's literally how it worked.
 
 The exhibit also tries to show how these early storage methods, even though they could only hold a tiny amount of data by today's standards, had a direct impact on how the computer's processor read and carried out instructions. It's a lot more hands-on and technical than your typical history lesson, but that's kind of the point.
 
 ## Group’s Tech Stack Plan:
-Node.js 26 — we're using this as our runtime environment.
-Astro 6 — this is our main framework for building the exhibit pages.
-React (.jsx) — we'll use this for our interactive components.
-Tailwind CSS — for styling and making the layout mobile-friendly.
-JavaScript — for the logic and interactivity of our components.
-GitHub Pages — where we'll deploy and host the final website.
+- Node.js 26 — we're using this as our runtime environment.
+- Astro 6 — this is our main framework for building the exhibit pages.
+- React (.jsx) — we'll use this for our interactive components.
+- Tailwind CSS — for styling and making the layout mobile-friendly.
+- JavaScript — for the logic and interactivity of our components.
+- GitHub Pages — where we'll deploy and host the final website.
 
 ## Proposed Interactive Element:
 An animated Core Rope Memory Visualizer built in React. Users will be able to:
