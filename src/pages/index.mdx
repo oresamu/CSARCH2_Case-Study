@@ -3,4 +3,19 @@ layout: '../layouts/HomepageLayout.astro'
 title: "Computer Architecture is Forever"
 ---
 
-[Linux](linux)
+import landingImage from '../assets/landingPage.png';
+
+<div className="landing-hero">
+  <img src={landingImage.src} alt="Landing page illustration" className="landing-hero__image" />
+  <div className="landing-hero__overlay">
+    <h1>Computer Architecture is Forever</h1>
+    <p>Explore our virtual exhibit with soft, gallery-inspired design.</p>
+  </div>
+
+  <div className="landing-hero__nav">
+    <a href="/linux">Linux</a>
+    <a href="/herstory-woven-in-memory">HerStory: Woven in Memory</a>
+  </div>
+</div>
+
+<div className="landing-hero-spacer"></div>
