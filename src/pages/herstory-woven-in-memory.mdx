@@ -1,0 +1,55 @@
+---
+layout: ../layouts/ExhibitLayout.astro
+title: "HerStory: Woven in Memory"
+description: "Exploring how the hidden women pioneers of computing physically shaped machine memory, instruction execution, and early storage architecture."
+author: "De Gracia, Kaleela Ysabel; Guiller, Gerylyn; Manaligod, Lei Ann; Ross, Isabella Althea"
+readingTime: "12 minutes"
+---
+
+import CoreRopeVisualizer from '../components/CoreRopeVisualizer.jsx';
+
+# HerStory: Woven in Memory
+**CSARCH2 Virtual Exhibit | Section S05**
+
+---
+
+## The Physical Evolution of Instruction Storage
+
+Rather than just listing historic names and dates, this exhibit digs deep into the structural building blocks of computing architecture. We explore how early storage technology physically changed over time—evolving from mechanical punch cards to electromagnetic core memory—and how these early methods directly governed how a processor read and carried out instructions. 
+
+---
+
+## 1. The Timeline of Hidden Pioneers
+
+### Ada Lovelace (1840s) — The Logic of Physical Mediums
+Ada Lovelace figured out how to translate abstract mathematical ideas into a physical format that a machine could sequentially decode. Using **punch cards**, she created a physical instruction manual for Charles Babbage’s Analytical Engine. 
+
+* **Architectural Impact:** This established the fundamental computing paradigm where software instruction streams exist independently of the underlying execution hardware.
+
+### Katherine Johnson (1950s - 1960s) — Human Reference Architectures
+In an era where vacuum tubes and early magnetic core memory were highly distrusted, Katherine Johnson acted as the baseline truth for NASA. She hand-calculated complex geometry equations for orbital mechanics and flight trajectories.
+
+* **Architectural Impact:** When NASA programmed its early IBM mainframes, Johnson's hand-calculated tables were directly used to verify and audit the integrity of the computer’s memory and CPU arithmetic logic units (ALU).
+
+### Grace Hopper (1950s) — Abstracting the Binary Layer
+Realizing humans shouldn't have to write natively in binary machine code, Grace Hopper invented the **first computer compiler**. This system translated human-readable symbolic instructions into the direct binary architecture required by the processor, ultimately paving the way for COBOL.
+
+* **Architectural Impact:** Shifted computer architecture workflows from manual bit-manipulation to logical software design, drastically reducing hardware instruction execution errors.
+
+### Margaret Hamilton (Late 1960s) — Core Rope Memory & Hardwired Logic
+For the Apollo Guidance Computer (AGC), Margaret Hamilton helped design and oversee **Core Rope Memory**. In this architecture, actual copper wires were physically woven through or around tiny magnetic ferrite rings to store binary code (passing through a ring signified a `1`, bypassing it signified a `0`).
+
+* **Architectural Impact:** This physically immutable storage held the software that managed system priorities. During the Apollo 11 landing, this hardwired logic safely dropped low-priority tasks during an unexpected CPU overload, ensuring the mission's survival.
+
+---
+
+## 2. Technical Component Breakdown
+
+
+---
+
+## 3. Interactive Exhibit: The Memory Visualizer
+
+Use the interactive simulation below to experience how instructions were physically hardcoded into memory arrays. Use the mode switch to contrast Ada Lovelace's mechanical logic against Margaret Hamilton's electromagnetic wire-weaving arrays.
+
+<CoreRopeVisualizer client:load />
