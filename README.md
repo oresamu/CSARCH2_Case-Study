@@ -42,8 +42,6 @@ An animated Core Rope Memory Visualizer built in React. Users will be able to:
 ## Tentative Style Guide Snapshot
 The exhibit is inspired by an [interactive online timeline](https://www.awwwards.com/sites/the-history-of-connection). Users can scroll through the page and move through a horizontal timeline featuring four important women in computing. Each person has their own section with short information about who they are and what they contributed, along with key images and insights. At the end of the timeline, users can interact with a Core Rope Memory Visualizer where they can click to binary values and see how early computers stored information.
 
----
-
 ## Incremental README.md Documentation
 
 ## Website description
