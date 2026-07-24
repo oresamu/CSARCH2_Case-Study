@@ -68,4 +68,7 @@ The exhibit is inspired by an [interactive online timeline](https://www.awwwards
 - Discovered that there was a "template" or format in the example Linux page that we could use for our own page.
 - Scrapped the idea of a landing page, as it was difficult to navigate from one page to another (also due to layout issues).
 - Added technical component breakdown which compares the discovery of each pioneer to current/modern computer concepts.
-- Added a binary and decimal converted to the interactive component.
+- Added a binary and decimal converter to the interactive component.
+
+## Disclosure on the Use of AI
+The group used AI tools to assist with brainstorming, explaining how ASTRO and other unfamiliar programming concepts encountered in this case study, and debugging. All generated suggestions were reviewed and used as references for designing, researching, and implementing the final project.
