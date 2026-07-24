@@ -60,3 +60,5 @@ The exhibit is inspired by an [interactive online timeline](https://www.awwwards
 - While researching for information of the pioneers, it was honestly impressive how their ideas laid foundations for many computing concepts that influence even the present.
 - Changed the color scheme to pink to fit the theme.
 - Planning to add a landing page in the future, adjust the images and the layout of each write-up, and refine the overall design and user experience.
+- Added binary and decimal value equivalents to interactive visualizer.
+- Created a technical/discoveries summary table.
