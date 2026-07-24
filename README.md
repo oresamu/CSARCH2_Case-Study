@@ -42,6 +42,8 @@ An animated Core Rope Memory Visualizer built in React. Users will be able to:
 ## Tentative Style Guide Snapshot
 The exhibit is inspired by an [interactive online timeline](https://www.awwwards.com/sites/the-history-of-connection). Users can scroll through the page and move through a horizontal timeline featuring four important women in computing. Each person has their own section with short information about who they are and what they contributed, along with key images and insights. At the end of the timeline, users can interact with a Core Rope Memory Visualizer where they can click to binary values and see how early computers stored information.
 
+---
+
 ## Incremental README.md Documentation
 
 ## Website description
@@ -49,7 +51,7 @@ The exhibit is inspired by an [interactive online timeline](https://www.awwwards
 - The official files are in the `test` branch.
 - This webpage includes both a historical overview and discussion that connects each individual's contributions to computing. There is also an interactivevisualizer on Ada Lovelace's punch cards and Margaret Hamilton's Core Rope Memory for users to try out, where they can toggle binary values by clicking on the "holes".
 
-## Development process
+## Development process (Mid Progress)
 - Experimented on multiple layouts, from the original (supposedly) landscape timeline to the vertical structure in the template.
 - The original idea was hard to implement around the template provided as there were issues with the formatting and section sizing.
 - Had to privot from our original idea from the proposal into something that would suit the provided exhibit layout.
@@ -60,3 +62,9 @@ The exhibit is inspired by an [interactive online timeline](https://www.awwwards
 - While researching for information of the pioneers, it was honestly impressive how their ideas laid foundations for many computing concepts that influence even the present.
 - Changed the color scheme to pink to fit the theme.
 - Planning to add a landing page in the future, adjust the images and the layout of each write-up, and refine the overall design and user experience.
+
+## Development process (Final)
+- Fixed the layout of the images and text, so the text hugs the image rather than the image awkwardly floating above it.
+- Discovered that there was a "template" or format in the example Linux page that we could use for our own page.
+- Scrapped the idea of a landing page, as it was difficult to navigate from one page to another (also due to layout issues).
+- Added technical component breakdown which compares the discovery of each pioneer to current/modern computer concepts.
