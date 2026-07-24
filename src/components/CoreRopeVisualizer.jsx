@@ -1,9 +1,10 @@
-// src/components/CoreRopeVisualizer.jsx
 import { useState } from 'react';
 
 export default function CoreRopeVisualizer() {
   const [mode, setMode] = useState('rope'); // 'rope' | 'punchcard'
   const [cores, setCores] = useState([1, 0, 1, 1, 0, 1, 0, 1]);
+  const binaryValue = cores.join('');
+  const decimalValue = parseInt(binaryValue, 2);
 
   const toggleCore = (index) => {
     const updated = [...cores];
@@ -39,6 +40,10 @@ export default function CoreRopeVisualizer() {
           </button>
         ))}
       </div>
+
+      <p className="crv__value" aria-live="polite">
+        Binary: <strong>{binaryValue}</strong> &mdash; Decimal: <strong>{decimalValue}</strong>
+      </p>
 
       <p className="crv__hint">
         {mode === 'rope'
@@ -105,6 +110,11 @@ export default function CoreRopeVisualizer() {
         .crv__cell--on {
           background: var(--accent);
           color: white;
+        }
+        .crv__value {
+          margin: 1rem 0 0;
+          font-size: var(--small);
+          color: var(--text);
         }
         .crv__hint {
           font-size: var(--small);
