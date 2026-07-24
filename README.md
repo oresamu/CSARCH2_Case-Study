@@ -68,3 +68,4 @@ The exhibit is inspired by an [interactive online timeline](https://www.awwwards
 - Discovered that there was a "template" or format in the example Linux page that we could use for our own page.
 - Scrapped the idea of a landing page, as it was difficult to navigate from one page to another (also due to layout issues).
 - Added technical component breakdown which compares the discovery of each pioneer to current/modern computer concepts.
+- Added a binary and decimal converted to the interactive component.
